@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true">
+  <ion-toolbar color="warning">
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button color="danger">
+        <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+
+  <ion-card>
+    <ion-card-header>
+      <img src="https://generacionxbox.com/wp-content/uploads/2021/07/elden-ring-combate-xbox.jpg">
+      <ion-card-title>IDK</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      IDK, haven't played it yet 'cause I've got no money and nothing to give
+    </ion-card-content>
+    <ion-item><ion-button fill="outline" slot="start" [routerLink]="['/list']">Go back</ion-button></ion-item>
+  </ion-card>
+
+</ion-content>

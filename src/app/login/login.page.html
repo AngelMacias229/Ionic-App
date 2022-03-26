@@ -1,0 +1,30 @@
+<ion-row></ion-row>
+<ion-header>
+  <ion-toolbar></ion-toolbar>
+  <ion-row></ion-row>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-row></ion-row>
+    <ion-title>Log In</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-item><img width="500" length="500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN1qDrEvrMyqT2_d_EhkR5gc38-FCt1Sc8eA&usqp=CAU" ></ion-item>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+    <ion-row> 
+      <ion-col>
+        <ion-button [routerLink]="['/list']" color="danger" expand="block">Sign In</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
